@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&     display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/580d42b24d.js" crossorigin="anonymous"></script>
+    <!-- tailwind custom color -->
+  
     <style>
    .manrope-font {
     font-family: "Manrope", sans-serif;
@@ -19,6 +23,53 @@
 
 </head>
 <body class="manrope-font">
-    <div class="">Assalamuyalaikum</div>
+<nav>
+    <div class="navbar w-9/12 rounded-3xl mt-3 mx-auto flex justify-center md:justify-between shadow-2xl bg-gradient-to-r from-indigo-500 via-purple-200 to-pink-500 ">
+        <a class="btn btn-ghost text-xl "><span class="text-fuchsia-700 md:text-fuchsia-200 font-extrabold">Uzzal's</span> Cafe</a>
+        <div class=" ">
+            <ul class="hidden md:flex justify-end space-x-10 mx-3 text-sm">
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="">
+                    <li>Tea</li>
+                </a>
+                <a href="">
+                    <li>Blog</li>
+                </a>
+                <a href="">
+                    <li>About Us</li>
+                </a>
+            </ul>
+          </div>
+      </div>
+    
+</nav>
+    <section class="hero-section w-9/12 mx-auto mt-10">
+        
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              
+                <div>
+                    <img src="./images/banner.png" class="max-w-sm" />
+
+                    <div class="w-64  flex items-center gap-5 px-4 rounded-xl -mt-16 -ml-5 ">
+                        <i class="fa-solid fa-star text-3xl" style="color: #FFD43B;"></i>
+                       <div class="py-5 flex-1 bg-zinc-50 rounded-lg">
+                        <h3 class="text-4xl">5.00</h3>
+                        <p>Trust Pilot Ratings</p>
+                       </div>
+                    </div>
+                </div>
+              
+              <div>
+                <h1 class="text-5xl font-bold">It's good <br> 
+                    tea time at The <br>
+                     Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds</p>
+                <button class="btn btn-primary rounded-lg w-48 text-white text-lg font-bold border-0 bg-gradient-to-l from-[#f00]  to-[#FF8938] hover:bg-gradient-to-r from-[#e01]  to-[#dF8940] hover:duration-700">Explore More</button>
+              </div>
+            </div>
+        
+    </section>
 </body>
 </html>
